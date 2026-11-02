@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "claudegera-searchrank_jd399"
+name = "claudegera-refusal_boundary_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出搜索排序算法工程师·拒答边界与过度拒答的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://claudegera.github.io"
-Repository = "https://github.com/claudegera/searchrank_jd399"
-Issues = "https://github.com/claudegera/searchrank_jd399/issues"
+Repository = "https://github.com/claudegera/refusal_boundary_coverage_map"
+Issues = "https://github.com/claudegera/refusal_boundary_coverage_map/issues"
 
 [project.scripts]
-searchrank_jd399 = "searchrank_jd399:main"
+refusal_boundary_coverage_map = "refusal_boundary_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["searchrank_jd399"]
+py-modules = ["refusal_boundary_coverage_map"]
